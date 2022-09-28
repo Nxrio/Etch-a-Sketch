@@ -17,13 +17,14 @@
 #container{
     
     margin-left: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
     width: 500px;
     height: 500px;
     border-style: solid;
     border-color: black;
+    background-color: var(--secondary-light);
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+   
 }
 
 #body{
@@ -47,4 +48,18 @@
     height: 30px;
     border: none;
     overflow: hidden;
+}
+
+.divShadow{
+    
+    border-style: solid;
+    border-color: black;
+    user-select: none;
+    
+    
+}
+
+#size-value{
+       
+    font-weight: bold;
 }
